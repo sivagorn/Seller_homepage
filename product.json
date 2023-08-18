@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "name": "BOYA BY-MM1 CARDIOID MICROPHONE",
+        "price": 990,
+        "image": "images/1.webp"
+    },
+    {
+        "id": 2,
+        "name": "BOYA BY-PM500 USB MICROPHONE",
+        "price": 2490,
+        "image": "images/2.webp"
+    },
+    {
+        "id": 3,
+        "name": "EPOS B20 STREAMING",
+        "price": 4490,
+        "image": "images/3.webp"
+    }
+    ,
+    {
+        "id": 4,
+        "name": "ONIKUMA HOKO M630 BLACK",
+        "price": 990,
+        "image": "images/4.webp"
+    },
+    {
+        "id": 5,
+        "name": "HYPERX QUADCAST STANDALONE",
+        "price": 4390,
+        "image": "images/5.webp"
+    },
+    {
+        "id": 6,
+        "name": "FIFINE K690 USB MICROPHONE",
+        "price": 2890,
+        "image": "images/6.webp"
+    }
+]

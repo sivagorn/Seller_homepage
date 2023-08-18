@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+        background-image: url("background.jpg");
+        background-size: cover;
+        padding: 85px;
+    }
+</style>
+<body>
+    
+<div class="container">
+    <div class="checkoutLayout">
+
+        
+        <div class="returnCart">
+            <a href="/">กลับไปหน้าร้านค้า</a>
+            <h1>รายการสินค้าในตะกร้า</h1>
+            <div class="list">
+
+                <div class="item">
+                    <img src="images/1.webp">
+                    <div class="info">
+                        <div class="name">PRODUCT 1</div>
+                        <div class="price">$22/1 product</div>
+                    </div>
+                    <div class="quantity">5</div>
+                    <div class="returnPrice">$433.3</div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="right">
+            <h1>โปรดกรอกข้อมูลให้ครบถ้วน</h1>
+
+            <div class="form">
+                <div class="group">
+                    <label for="name">ชื่อ-นามสกุล</label>
+                    <input type="text" name="name" id="name">
+                </div>
+    
+                <div class="group">
+                    <label for="phone">เบอร์โทรศัพท์</label>
+                    <input type="text" name="phone" id="phone">
+                </div>
+    
+                <div class="group">
+                    <label for="address">ที่อยู่</label>
+                    <input type="text" name="address" id="address">
+                </div>
+    
+                <div class="group">
+                    <label for="country">ประเทศ</label>
+                    <select name="country" id="country">
+                        <option value="">เลือก..</option>
+                        <option value="">Thailand</option>
+                    </select>
+                </div>
+    
+                <div class="group">
+                    <label for="city">เมือง</label>
+                    <select name="city" id="city">
+                        <option value="">เลือก..</option>
+                        <option value="">Bangkok</option>
+                    </select>
+                </div>
+            </div>
+            <div class="return">
+                <div class="row">
+                    <div>จำนวนสินค้ารวม</div>
+                    <div class="totalQuantity">70</div>
+                </div>
+                <div class="row">
+                    <div>ราคารวม</div>
+                    <div class="totalPrice">$900</div>
+                </div>
+            </div>
+            <button class="buttonCheckout">ชำระเงิน</button>
+            </div>
+    </div>
+</div>
+
+
+<script src="checkout.js"></script>
+
+</body>
+</html>
